@@ -25,3 +25,12 @@ else if ( x <= 100) {
 else {
     document.write  ("invalid value") ;
   }
+
+
+
+
+
+  const PI = 3.141592653589793;
+ var z = 5 ;
+y= 2* PI * z ; 
+document.write (y) ;
