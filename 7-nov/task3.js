@@ -1,13 +1,13 @@
 var strings= ["ali","mercer","madrasa","rashed2","emad","hala"];
 
-function shorterInArray(arr){
-    let shortest=100;
+function shorterInArray(att){
+    let shortest=50000;
     let str="";
-    for(let i=0; i<arr.length;i++){
+    for(let i=0; i<att.length;i++){
 
-        if (arr[i].length < shortest){ 
-            shortest=arr[i].length;
-            str =arr[i];
+        if (att[i].length < shortest){ 
+            shortest=att[i].length;
+            str =att[i];
             
         }
         
@@ -15,5 +15,5 @@ function shorterInArray(arr){
     return str
 }
 
-let ting=shorterInArray(strings);
-document.write(ting);
+let hi=shorterInArray(strings);
+document.write(hi);

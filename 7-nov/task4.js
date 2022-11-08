@@ -5,8 +5,11 @@ let obj ={
 };
 
 function employeesInfo(x){
-    let info = `The first name is: ${x.firstName}<br/>The age is: ${x.age}<br/>The salary is: ${x.salary}`;
-    document.write(info);
+/*     let info = `The first name is: ${x.firstName}<br/>The age is: ${x.age}<br/>The salary is: ${x.salary}`;
+ */    let info = "The first name is:" + x.firstName + "<br/>The age is:"+ x.age + "<br/>The salary is:" +x.salary;
+
+
+document.write(info);
 
 }
 
