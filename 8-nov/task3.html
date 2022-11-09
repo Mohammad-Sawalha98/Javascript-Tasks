@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<label for="">password (min 6 charecters):</label>
+<input type="password" id="first" onchange="create()"> 
+ <input id="tooshort" type="text" disabled hidden placeholder="Too Short"><br>
+
+<label >Repeat password : </label>
+<input type="password" id="second" disabled onchange="repeat()"> 
+<input  type="text"    id="donotmatch" disabled hidden placeholder="The tow passwords do not match"> <br>
+
+<button id="sub" hidden>submit</button>
+    <script src="task3.js"></script>
+</body>
+</html>

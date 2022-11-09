@@ -26,20 +26,20 @@
 /////////////////////////////////////////////////////////////
 
 
-let str=prompt( "inter value" , "hi") ;
-let str2=prompt( "inter value" , "bye") ;
+// let str=prompt( "inter value" , "hi") ;
+// let str2=prompt( "inter value" , "bye") ;
 
-function sameLength(str , str2){
+// function sameLength(str , str2){
 
-if( str.length == str2.length){
-    document.write("true") ;
-}
-else{
-    document.write("false") ; 
-}
+// if( str.length == str2.length){
+//     document.write("true") ;
+// }
+// else{
+//     document.write("false") ; 
+// }
 
-}
-sameLength(str,str2) ;
+// }
+// sameLength(str,str2) ;
 /////////////////////////////////////////////////////////////
 // let name1 = { firstname:"mohammad" , lastname: "sawalha"};
 // function fullname(x){
@@ -49,5 +49,6 @@ sameLength(str,str2) ;
 
 // }
 // fullname(name1);
+/////////////////////////////////////////////////////////////
 
 
