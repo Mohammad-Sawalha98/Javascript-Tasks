@@ -1,5 +1,5 @@
 let x=document.getElementById("main");
-x.style.border="5px";
+// x.style.border="5px";
 x.style.height="60px";
 x.style.width="540px";
 // x.style.backgroundColor="red";
@@ -27,15 +27,16 @@ function sizefun(){
 
     let s=document.getElementById("size").value;
     let m=document.getElementById("main");
-    if(s=="12pt"){
-        m.style.fontSize="12px";
-    }
-    else if(s=="14pt"){
-        m.style.fontSize="14px";
-    }
-    if(s=="16pt"){
-        m.style.fontSize="16px";
-    }
+    // if(s=="12pt"){
+    //     m.style.fontSize="12px";
+    // }
+    // else if(s=="14pt"){
+    //     m.style.fontSize="14px";
+    // }
+    // if(s=="16pt"){
+    //     m.style.fontSize="16px";
+    // }
+    m.style.fontSize=s+"px";
 }
 
 

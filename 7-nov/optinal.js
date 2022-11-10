@@ -51,4 +51,21 @@
 // fullname(name1);
 /////////////////////////////////////////////////////////////
 
+let x =("ahmad","saeed","ibraheem","ali") ;
 
+let yourname ;
+document.write(x[0]);
+
+// function longerstring(x){
+// for(i=0 ; i<=x.length ; i++){
+//     let y =x[i];
+//     let long=y.length;
+//     if(x[i].length>long){
+//     yourname=x[i]
+// }
+// document.write(yourname);
+
+// }
+
+// }
+// longerstring(x)
